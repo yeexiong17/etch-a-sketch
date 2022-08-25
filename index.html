@@ -11,8 +11,17 @@
 <body>
     <script src="script.js" defer></script>
 
-    <button class="popup-btn">Press Me</button>
+    <h1>Etch-a-sketch</h1>
+    <!--<button class="popup-btn">Press Me</button>-->
+    <div id="outContainer">
+        <div class="container"></div>
+    </div>
+    
+    <div id="slider">
+        <input type="range" value="16" id="newCol" name="newColumn" min="1" max="25">
+        <p><span id="col"></span></p>
+    </div>
 
-    <div class="container"></div>
+    <button id="apply">Apply</button>
 </body>
 </html>
