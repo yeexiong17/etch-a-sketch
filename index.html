@@ -12,16 +12,21 @@
     <script src="script.js" defer></script>
 
     <h1>Etch-a-sketch</h1>
-    <!--<button class="popup-btn">Press Me</button>-->
+
     <div id="outContainer">
+        <div id="control">
+            <div id="slider">
+                <input type="range" value="16" id="newCol" class="slider-bar" name="newColumn" min="1" max="25">
+                <p><span id="col"></span></p>
+            </div>
+    
+            <button id="apply">Apply</button>
+        </div>
+
         <div class="container"></div>
     </div>
     
-    <div id="slider">
-        <input type="range" value="16" id="newCol" name="newColumn" min="1" max="25">
-        <p><span id="col"></span></p>
-    </div>
+    
 
-    <button id="apply">Apply</button>
 </body>
 </html>
