@@ -12,15 +12,35 @@
     <script src="script.js" defer></script>
 
     <h1>Etch-a-sketch</h1>
+    <h3>( Choose A Color Mode First )</h3>
 
     <div id="outContainer">
         <div id="control">
+
             <div id="slider">
+                <h4>Adjust Grid</h4>
                 <input type="range" value="16" id="newCol" class="slider-bar" name="newColumn" min="1" max="25">
-                <p><span id="col"></span></p>
             </div>
-    
-            <button id="apply">Apply</button>
+
+            <div id="gridnbtn">
+                <p><span id="col"></span></p>
+                <button id="apply">Apply</button>
+            </div>
+
+            <div id="more-fx">
+                <h4>More Function</h4>
+
+                <div class="color-mode">
+                    <h5>Color Mode : </h5>
+                    <button class="fx-1 btn-1">Black Colour</button>
+                </div>
+
+                <div class="function">
+                    <button class="fx-2 btn-2">Erase</button>
+                    <button class="fx-2 btn-3">Clear</button>
+                </div>
+            </div>
+
         </div>
 
         <div class="container"></div>

@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: linear-gradient(90deg, #ede7d3,#eeeeeee5, #eeeeeee5, #eeeeeee5, #ede7d3);
+    background-color: #fff9e0;
 }
 
 /* Header */
@@ -16,10 +16,18 @@ h1{
     margin: 1rem auto;
 }
 
+h3{
+    font-family: 'Aboreto', cursive;
+    font-size: 1.6rem;
+    text-align: center;
+    width: 50%;
+    margin: 5px auto;
+}
+
 /* Grid */
 #outContainer{
     display: flex;
-    margin-top: 3%;
+    margin-top: 2%;
     justify-content: center;
 }
 
@@ -29,7 +37,8 @@ button{
 
 .container{
     display: inline-grid;
-    width: 480px;
+    background-color: #ffffff;
+    width: 530px;
 }
 
 .gridBox{
@@ -40,18 +49,94 @@ button{
 
 /* Control Panel */
 #control{
+    margin-top: 2%;
+    margin-right: 9%;
+}
+
+h4{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 1.4rem;
+    margin-bottom: 5%;
+}
+
+#gridnbtn{
+    width: 130%;
     margin-top: 5%;
-    margin-right: 10%;
+}
+
+/* Button styling for Apply */
+#apply{
+    font-size: 1.3rem;
+    padding: 0.2rem 1.3rem;
+    margin-left: 10%;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+#apply:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 3px 10px 2px;
+}
+
+#apply:active{
+    transform: translateY(1px);
+    background-color: black;
+    color: white;
+}
+
+/* More function buttons */
+#more-fx{
+    margin-top: 20%;
+}
+
+.color-mode{
+    width: 150%;
+    margin-bottom: 8%;
+}
+
+.color-mode h5{
+    font-size: 1rem;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    float: left;
+}
+
+.fx-1{
+    font-size: 1rem;
+    margin-left: 3%;
+    padding: 5px 0;
+    width: 56%;
+    border-radius: 5px;
+}
+
+.fx-2{
+    width: 140%;
+    padding: 5px 0;
+    margin-top: 8%;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.fx-1:hover, .fx-2:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 3px 10px 2px;
+}
+
+.fx-1:active, .fx-2:active{
+    transform: translateY(1px);
+    background-color: black;
+    color: white;
 }
 
 /* Range Slider */
 #slider{
-    width: 100%;
+    width: 140%;
 }
 
-#slider p{
-    display: inline-block;
+p{ 
+    float: left;
+    margin-top: 2%;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 1.3rem;
 }
 
 .slider-bar{
