@@ -4,8 +4,8 @@ var colOut = document.getElementById("col");
 var select1 = document.querySelector(".container");
 var btn1 = document.getElementById("apply");
 var black = document.querySelector(".btn-1");
-var erase = document.querySelector(".btn-2");
-var clear = document.querySelector(".btn-3");
+var erase = document.querySelector(".btn-3");
+var clear = document.querySelector(".btn-4");
 
 let state_1;
 let state_2;
