@@ -50,18 +50,19 @@ button{
 /* Control Panel */
 #control{
     margin-top: 2%;
-    margin-right: 9%;
+    width: fit-content;
 }
 
 h4{
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-size: 1.4rem;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 #gridnbtn{
-    width: 130%;
-    margin-top: 5%;
+    width: 80%;
+    margin-right: 0;
+    margin-top: 2%;
 }
 
 /* Button styling for Apply */
@@ -86,32 +87,34 @@ h4{
 
 /* More function buttons */
 #more-fx{
-    margin-top: 20%;
+    margin-top: 10%;
+    margin-right: 0;
+    width : 80%;
 }
 
 .color-mode{
-    width: 150%;
-    margin-bottom: 8%;
+    
+    margin-bottom: 12%;
 }
 
 .color-mode h5{
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     float: left;
 }
 
 .fx-1{
-    font-size: 1rem;
-    margin-left: 3%;
+    width: 80%;
     padding: 5px 0;
-    width: 56%;
+    margin-top: 5%;
+    font-size: 1rem;
     border-radius: 5px;
 }
 
 .fx-2{
-    width: 140%;
+    width: 80%;
     padding: 5px 0;
-    margin-top: 8%;
+    margin-top: 5%;
     font-size: 1rem;
     border-radius: 5px;
 }
@@ -129,7 +132,8 @@ h4{
 
 /* Range Slider */
 #slider{
-    width: 140%;
+    margin-right: 0;
+    width: 65%;
 }
 
 p{ 
