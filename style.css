@@ -54,7 +54,7 @@ button{
     flex-direction: column;
 }
 
-p {
+.click-lag {
     cursor: pointer; 
     margin-bottom: 12px; 
     margin-top: 0; 
