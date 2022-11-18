@@ -15,50 +15,58 @@
 <body>
     <script src="script.js" defer></script>
 
-    <h1>Etch-a-sketch</h1>
-    <h3>( Choose A Color Mode First )</h3>
-
-    <div id="outContainer">
-        
-        <div id="control">
-            <p class="click-lag">Click once here when mouse lags</p>
-            <div id="slider">
-
-                <h4>Adjust Grid</h4>
-                <input type="range" value="16" id="newCol" class="slider-bar" name="newColumn" min="1" max="50">
-
+    <div class="section">
+        <header class="header">
+            <div class="header-1">
+                <h1>Etch-a-sketch</h1>
+                <h3>( Choose A Color Mode First )</h3>
             </div>
-
-            <div id="gridnbtn">
-
-                <p><span id="col"></span></p>
-                <button id="apply">Apply</button>
-
+            <div class="header-2">
+                <p>Can't paint? Try Double Click!</p>
             </div>
+        </header>
+    
+        <div id="outContainer">
+            
+            <div id="control">
+                <div id="slider">
 
-            <div id="more-fx">
-
-                <div class="color-mode">
-                    <h5>Color Mode</h5>
-                    <button class="fx-1 btn-1">Black Colour</button>
-                    <button class="fx-1 btn-2">Rainbow Colour</button>
-                </div>
-                
-                <h4>More Function</h4>
-
-                <div class="function">
-
-                    <button class="fx-2 btn-3">Erase</button>
-                    <button class="fx-2 btn-4">Clear</button>
+                    <h4>Adjust Grid</h4>
+                    <input type="range" value="16" id="newCol" class="slider-bar" name="newColumn" min="1" max="50">
 
                 </div>
 
+                <div id="gridnbtn">
+
+                    <p><span id="col"></span></p>
+                    <button id="apply">Apply</button>
+
+                </div>
+
+                <div id="more-fx">
+
+                    <div class="color-mode">
+                        <h5>Color Mode</h5>
+                        <button class="fx-1 btn-1">Black Colour</button>
+                        <button class="fx-1 btn-2">Rainbow Colour</button>
+                    </div>
+                    
+                    <h4>More Function</h4>
+
+                    <div class="function">
+
+                        <button class="fx-2 btn-3">Erase</button>
+                        <button class="fx-2 btn-4">Clear</button>
+
+                    </div>
+
+                </div>
+
             </div>
+
+            <div class="container"></div>
 
         </div>
-
-        <div class="container"></div>
-
     </div>
     
     

@@ -7,21 +7,49 @@ body{
     background-color: #fff9e0;
 }
 
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 898px;
+    margin: 0 auto;
+}
+
+
 /* Header */
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.header-1 {
+    margin-right: 155px;
+}
+
+.header-2 {
+    border: 2px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header-2 p {
+    margin: 0;
+}
+
 h1{
     font-family: 'Aboreto', cursive;
-    font-size: 4.2rem;
-    width: 50%;
-    text-align: center;
-    margin: 1rem auto;
+    font-size: 45px;
+    text-align: left;
 }
 
 h3{
     font-family: 'Aboreto', cursive;
-    font-size: 1.6rem;
-    text-align: center;
-    width: 50%;
-    margin: 5px auto;
+    font-size: 20px;
+    text-align: left;
 }
 
 /* Grid */
@@ -38,7 +66,9 @@ button{
 .container{
     display: inline-grid;
     background-color: #ffffff;
-    width: 530px;
+    max-width: 530px;
+    min-width: 530px;
+    margin-left: 30px;
 }
 
 .gridBox{
@@ -52,6 +82,7 @@ button{
     width: fit-content;
     display: flex;
     flex-direction: column;
+    margin-top: 15px;
 }
 
 .click-lag {
